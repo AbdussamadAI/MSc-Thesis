@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: >-
+  AbdussamadAI/MSc-Thesis: Code and Data for "A Scalable
+  Multi-GPU Framework for Stock Price Forecasting"
+type: software
+authors:
+  - given-names: Abdussamad
+    family-names: Ali
+    affiliation: King Fahd University of Petroleum and Minerals (KFUPM)
+    orcid: "https://orcid.org/0009-0003-0942-3544"
+  - given-names: Ayaz H.
+    family-names: Khan
+    affiliation: King Fahd University of Petroleum and Minerals (KFUPM)
+  - given-names: Muhammad Imran
+    family-names: Chaudhry
+    affiliation: King Fahd University of Petroleum and Minerals (KFUPM)
+    orcid: "https://orcid.org/0000-0002-1855-3557"
+  - given-names: Aiman Helmi
+    family-names: El-Maleh
+    affiliation: King Fahd University of Petroleum and Minerals (KFUPM)
+repository-code: "https://github.com/AbdussamadAI/MSc-Thesis"
+license: MIT
+date-released: "2026-09-18"
+keywords:
+  - stock price forecasting
+  - multi-GPU
+  - CUDA streams
+  - Temporal Fusion Transformer
+  - BiLSTM
+  - financial time-series forecasting
