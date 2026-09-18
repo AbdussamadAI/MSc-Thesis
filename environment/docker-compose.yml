@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  ml-training:
+    build: .
+    container_name: ml-training-container
+    runtime: nvidia  # Enable GPU support
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    volumes:
+      # Mount your local data directory
+      - ./stock_data:/app/stock_data
+      - ./results:/app/results
+      - ./models:/app/models
+      - ./logs:/app/logs
+      # Mount for Jupyter notebooks
+      - ./notebooks:/app/notebooks
+    ports:
+      - "8888:8888"  # Jupyter Lab
+      - "6006:6006"  # TensorBoard
+    stdin_open: true
+    tty: true
+    command: bash
+    
+  jupyter:
+    build: .
+    container_name: jupyter-container
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    volumes:
+      - ./:/app
+    ports:
+      - "8889:8888"
+    command: >
+      bash -c "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''"
+      
+  tensorboard:
+    build: .
+    container_name: tensorboard-container
+    volumes:
+      - ./logs:/app/logs
+    ports:
+      - "6007:6006"
+    command: tensorboard --logdir=/app/logs --host=0.0.0.0 --port=6006

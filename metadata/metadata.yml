@@ -1,0 +1,35 @@
+metadata_version: 1
+name: Thesis work
+description: The growing complexity of financial markets demands real-time, large-scale
+  analytics capable of processing diverse and rapidly changing data streams. Traditional
+  statistical models, though interpretable and effective for stationary series, often
+  fail to capture nonlinear dependencies and long-term temporal patterns in multivariate
+  stock data. Deep learning approaches such as BiLSTM and the Temporal Fusion Transformer
+  (TFT) provide stronger alternatives but incur high training costs without efficient
+  GPU utilization. While multi-GPU systems offer acceleration, their benefits are
+  often limited by communication overhead and underutilization. This thesis addresses
+  these challenges by designing and evaluating a distributed multi-GPU architecture
+  for stock prediction that balances speed, scalability, and accuracy. The system
+  leverages optimized communication pathways with NCCL and NVLink, pinned memory for
+  faster transfers, asynchronous execution, and CUDA streams for concurrency. PyTorch
+  implementations consistently outperformed TensorFlow, and rigorous baselines were
+  established against the strongest statistical models, including SARIMA, ARIMA variants,
+  GARCH, Auto-ARIMA, and exponential smoothing. Results demonstrated that TFT outperformed
+  BiLSTM in 45 of 50 stock symbols, achieving higher accuracy and stronger temporal
+  pattern recognition. Performance evaluations confirmed significant acceleration,
+  with single GPUs training ~32× faster than CPUs at 32 symbols and multi-GPU configurations
+  reaching ~36×. However, gains diminished for smaller workloads due to synchronization
+  and communication overheads. To overcome these limits, this work introduces Dynamic
+  Stream Orchestration, a scheduling strategy that adaptively creates multiple CUDA
+  streams per GPU in proportion to workload size. This transforms training from a
+  sequential process into a parallel, GPU-saturated pipeline. Experiments achieved
+  up to a 6.24× speedup, establishing a scalable and high-performance framework for
+  financial time series prediction that delivers both superior accuracy and practical
+  scalability for modern financial markets.
+authors:
+- name: Abdussamad Idris Ali
+  affiliations:
+  - name: King Fahd University of Petroleum and Minerals
+corresponding_contributor:
+  name: Dr. Ayaz Khan
+  email: ayaz.khan@kfupm.edu.sa

@@ -1,0 +1,295 @@
+symbols: {'US': 20, 'London': 15, 'Pakistan': 15}
+US/AAPL       n= 1257 origins= 50 MAE_b=  57.0569 MAE_t=  60.1617 [103s]
+US/ADBE       n= 1257 origins= 50 MAE_b=  43.2144 MAE_t=  54.6846 [205s]
+US/AMD        n= 1257 origins= 50 MAE_b=  26.4385 MAE_t=  36.7907 [307s]
+US/AMZN       n= 1257 origins= 50 MAE_b=  44.6762 MAE_t=  50.9908 [408s]
+US/CRM        n= 1257 origins= 50 MAE_b=  59.7398 MAE_t=  67.0086 [509s]
+US/CSCO       n= 1257 origins= 50 MAE_b=   7.4698 MAE_t=   7.4424 [610s]
+US/DIS        n= 1257 origins= 50 MAE_b=  15.0103 MAE_t=  20.1760 [709s]
+US/GOOGL      n= 1257 origins= 50 MAE_b=  44.5260 MAE_t=  53.8824 [814s]
+US/INTC       n= 1257 origins= 50 MAE_b=  11.7382 MAE_t=   6.5065 [924s]
+US/JNJ        n= 1257 origins= 50 MAE_b=   5.8229 MAE_t=   6.3960 [1026s]
+US/JPM        n= 1257 origins= 50 MAE_b=  67.4507 MAE_t=  94.9796 [1130s]
+US/META       n= 1257 origins= 50 MAE_b= 225.9043 MAE_t= 297.3052 [1233s]
+US/MSFT       n= 1257 origins= 50 MAE_b= 109.7411 MAE_t= 142.2336 [1335s]
+US/NFLX       n= 1257 origins= 50 MAE_b= 318.3360 MAE_t= 382.8204 [1437s]
+US/NVDA       n= 1257 origins= 50 MAE_b=  66.8829 MAE_t=  99.7661 [1542s]
+US/PG         n= 1257 origins= 50 MAE_b=  26.3872 MAE_t=  30.2326 [1645s]
+US/PYPL       n= 1257 origins= 50 MAE_b=  42.3081 MAE_t=   6.8416 [1748s]
+US/TSLA       n= 1257 origins= 50 MAE_b=  54.1982 MAE_t=  66.7363 [1855s]
+US/V          n= 1257 origins= 50 MAE_b=  66.9978 MAE_t=  85.6738 [1961s]
+US/WMT        n= 1257 origins= 50 MAE_b=  27.8945 MAE_t=  37.1300 [2067s]
+London/AAL.L      n= 1262 origins= 50 MAE_b= 240.3458 MAE_t= 147.4779 [2173s]
+London/AZN.L      n= 1262 origins= 50 MAE_b=1496.9377 MAE_t=1786.6023 [2276s]
+London/BARC.L     n= 1262 origins= 50 MAE_b=  76.7133 MAE_t=  92.1441 [2378s]
+London/BP.L       n= 1261 origins= 50 MAE_b=  31.5630 MAE_t=  53.7242 [2481s]
+London/GLEN.L     n= 1261 origins= 50 MAE_b=  37.5852 MAE_t=  54.2002 [2585s]
+London/GSK.L      n= 1262 origins= 50 MAE_b=  73.6004 MAE_t=  92.0245 [2691s]
+London/HSBA.L     n= 1262 origins= 50 MAE_b= 189.5174 MAE_t= 237.0897 [2794s]
+London/LLOY.L     n= 1262 origins= 50 MAE_b=  13.9762 MAE_t=  15.5331 [2897s]
+London/NWG.L      n= 1262 origins= 50 MAE_b= 128.2554 MAE_t= 152.7500 [3000s]
+London/REL.L      n= 1262 origins= 50 MAE_b=1026.4265 MAE_t=1391.8592 [3104s]
+London/RIO.L      n= 1262 origins= 50 MAE_b= 287.0279 MAE_t= 404.4197 [3211s]
+London/SHEL.L     n= 1262 origins= 50 MAE_b= 508.2116 MAE_t= 569.4755 [3314s]
+London/SSE.L      n= 1262 origins= 50 MAE_b= 119.7041 MAE_t= 139.2437 [3417s]
+London/ULVR.L     n= 1262 origins= 50 MAE_b= 471.7501 MAE_t= 594.8393 [3524s]
+London/VOD.L      n= 1262 origins= 50 MAE_b=  22.5849 MAE_t=   2.9860 [3632s]
+Pakistan/BAHL.KA    n= 1289 origins= 51 MAE_b=  51.8197 MAE_t=  76.0982 [3744s]
+Pakistan/DGKC.KA    n= 1289 origins= 51 MAE_b=  19.6960 MAE_t=  25.8601 [3855s]
+Pakistan/EFERT.KA   n= 1289 origins= 51 MAE_b=  88.5157 MAE_t= 127.7806 [3967s]
+Pakistan/ENGRO.KA   n= 1204 origins= 48 MAE_b=  19.0673 MAE_t= 153.4051 [4071s]
+Pakistan/FFC.KA     n= 1289 origins= 51 MAE_b= 145.3205 MAE_t= 191.0959 [4186s]
+Pakistan/HBL.KA     n= 1289 origins= 51 MAE_b=  43.1626 MAE_t=  52.6246 [4299s]
+Pakistan/HUBC.KA    n= 1289 origins= 51 MAE_b=  51.7439 MAE_t=  83.6212 [4415s]
+Pakistan/LUCK.KA    n= 1289 origins= 51 MAE_b= 335.4983 MAE_t= 405.2527 [4532s]
+Pakistan/MARI.KA    n= 1289 origins= 51 MAE_b= 895.5146 MAE_t=1055.4553 [4648s]
+Pakistan/MCB.KA     n= 1289 origins= 51 MAE_b=  99.9289 MAE_t= 142.0763 [4762s]
+Pakistan/MLCF.KA    n= 1289 origins= 51 MAE_b=   8.5669 MAE_t=  10.4517 [4876s]
+Pakistan/OGDC.KA    n= 1289 origins= 51 MAE_b=  65.8884 MAE_t=  98.1415 [4990s]
+Pakistan/PPL.KA     n= 1289 origins= 51 MAE_b=  50.2385 MAE_t=  75.0346 [5103s]
+Pakistan/PSO.KA     n= 1289 origins= 51 MAE_b= 103.1778 MAE_t= 117.0243 [5216s]
+Pakistan/UBL.KA     n= 1290 origins= 51 MAE_b= 175.7072 MAE_t= 235.6897 [5328s]
+
+saved /Users/abdulsamad/Downloads/THESIS_JOURNAL/capsule-3407924/table12_predictions.csv rows=2512
+panel: 2512 weekly rows, 50 stocks, 67 weeks
+
+{
+  "protocol": {
+    "lookback": 60,
+    "horizon": 5,
+    "split": 0.8,
+    "top_n": 10,
+    "periods_per_year": 52,
+    "bilstm": {
+      "hidden": 256,
+      "epochs": 50
+    },
+    "tft": {
+      "hidden": 256,
+      "layers": 4,
+      "heads": 8,
+      "epochs": 50
+    },
+    "note": "All four strategies (Momentum, MA-cross, BiLSTM, TFT) evaluated on the identical weekly-origin grid per symbol (t=split,split+5,... on the raw row index) so they share one pooled buy-and-hold benchmark."
+  },
+  "n_stocks": 50,
+  "n_weeks": 67,
+  "Momentum": {
+    "long_short": {
+      "n_weeks": 52,
+      "weekly_mean_return": -0.013742468326247889,
+      "total_return": -0.5674581046909548,
+      "annualized_return": -0.5130354976476521,
+      "annualized_volatility": 0.4408742804167919,
+      "annualized_sharpe": -1.6208891847565177,
+      "max_drawdown": 0.5898463822471829,
+      "win_rate": 0.38461538461538464,
+      "t_statistic": -1.6208891847565179,
+      "p_value": 0.11120869917810139
+    },
+    "long_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.0017103317202798963,
+      "total_return": 0.06378325487429892,
+      "annualized_return": 0.09292903465593816,
+      "annualized_volatility": 0.23359926231196293,
+      "annualized_sharpe": 0.380725729072647,
+      "max_drawdown": 0.1616233057874611,
+      "win_rate": 0.5769230769230769,
+      "t_statistic": 0.380725729072647,
+      "p_value": 0.7049880657257028
+    },
+    "short_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": -0.015452800046527788,
+      "total_return": -0.6034156043243891,
+      "annualized_return": -0.5550613302132591,
+      "annualized_volatility": 0.429004582622331,
+      "annualized_sharpe": -1.8730466642283785,
+      "max_drawdown": 0.6193024022890359,
+      "win_rate": 0.3076923076923077,
+      "t_statistic": -1.8730466642283785,
+      "p_value": 0.0667987278764147
+    },
+    "buy_hold": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.006433910442720847,
+      "total_return": 0.37803897913195117,
+      "annualized_return": 0.3958334080413579,
+      "annualized_volatility": 0.163113845024791,
+      "annualized_sharpe": 2.051103282928773,
+      "max_drawdown": 0.08083750468658413,
+      "win_rate": 0.6346153846153846,
+      "t_statistic": 2.0511032829287736,
+      "p_value": 0.04541076680353542
+    },
+    "n_weeks": 52
+  },
+  "MA_cross": {
+    "long_short": {
+      "n_weeks": 52,
+      "weekly_mean_return": -0.015096818769428012,
+      "total_return": -0.6019190115683246,
+      "annualized_return": -0.5466181905467837,
+      "annualized_volatility": 0.4472616345070656,
+      "annualized_sharpe": -1.7552021354915812,
+      "max_drawdown": 0.6274070201077078,
+      "win_rate": 0.34615384615384615,
+      "t_statistic": -1.7552021354915812,
+      "p_value": 0.0852301233847702
+    },
+    "long_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.0010353777624038702,
+      "total_return": 0.026237469408948666,
+      "annualized_return": 0.05528596881299097,
+      "annualized_volatility": 0.23577493862931054,
+      "annualized_sharpe": 0.22835185095583407,
+      "max_drawdown": 0.21674524072870194,
+      "win_rate": 0.6346153846153846,
+      "t_statistic": 0.22835185095583407,
+      "p_value": 0.8202858520234972
+    },
+    "short_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": -0.01613219653183188,
+      "total_return": -0.6202042738376333,
+      "annualized_return": -0.5707493758900332,
+      "annualized_volatility": 0.43639679788746927,
+      "annualized_sharpe": -1.922274003191867,
+      "max_drawdown": 0.6240433935035601,
+      "win_rate": 0.40384615384615385,
+      "t_statistic": -1.9222740031918673,
+      "p_value": 0.060165728570343927
+    },
+    "buy_hold": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.006433910442720847,
+      "total_return": 0.37803897913195117,
+      "annualized_return": 0.3958334080413579,
+      "annualized_volatility": 0.163113845024791,
+      "annualized_sharpe": 2.051103282928773,
+      "max_drawdown": 0.08083750468658413,
+      "win_rate": 0.6346153846153846,
+      "t_statistic": 2.0511032829287736,
+      "p_value": 0.04541076680353542
+    },
+    "n_weeks": 52
+  },
+  "BiLSTM": {
+    "long_short": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.007094686252518426,
+      "total_return": 0.3265739399540306,
+      "annualized_return": 0.4442947546425424,
+      "annualized_volatility": 0.4553084837887978,
+      "annualized_sharpe": 0.8102719326927572,
+      "max_drawdown": 0.18791093370455814,
+      "win_rate": 0.4807692307692308,
+      "t_statistic": 0.8102719326927573,
+      "p_value": 0.4215487727796844
+    },
+    "long_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.011623155887850142,
+      "total_return": 0.6891782725925575,
+      "annualized_return": 0.8237932717841261,
+      "annualized_volatility": 0.4363578401940582,
+      "annualized_sharpe": 1.385111141579157,
+      "max_drawdown": 0.10476598923982872,
+      "win_rate": 0.6153846153846154,
+      "t_statistic": 1.385111141579157,
+      "p_value": 0.17204753476547616
+    },
+    "short_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": -0.004528469635331712,
+      "total_return": -0.23313277831239887,
+      "annualized_return": -0.21023134577489233,
+      "annualized_volatility": 0.2467591773356703,
+      "annualized_sharpe": -0.9542924546101941,
+      "max_drawdown": 0.32566089016134303,
+      "win_rate": 0.3076923076923077,
+      "t_statistic": -0.9542924546101943,
+      "p_value": 0.3444370974488403
+    },
+    "buy_hold": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.006433910442720847,
+      "total_return": 0.37803897913195117,
+      "annualized_return": 0.3958334080413579,
+      "annualized_volatility": 0.163113845024791,
+      "annualized_sharpe": 2.051103282928773,
+      "max_drawdown": 0.08083750468658413,
+      "win_rate": 0.6346153846153846,
+      "t_statistic": 2.0511032829287736,
+      "p_value": 0.04541076680353542
+    },
+    "n_weeks": 52
+  },
+  "TFT": {
+    "long_short": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.005802071423710454,
+      "total_return": 0.24988686957534711,
+      "annualized_return": 0.35098751830866926,
+      "annualized_volatility": 0.4356034375347644,
+      "annualized_sharpe": 0.6926201403285874,
+      "max_drawdown": 0.21145775896303565,
+      "win_rate": 0.4807692307692308,
+      "t_statistic": 0.6926201403285875,
+      "p_value": 0.49168988007482606
+    },
+    "long_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.011378921796752336,
+      "total_return": 0.6709281393381255,
+      "annualized_return": 0.8010373041012098,
+      "annualized_volatility": 0.43045827818918986,
+      "annualized_sharpe": 1.374590670947819,
+      "max_drawdown": 0.11631898637801219,
+      "win_rate": 0.5576923076923077,
+      "t_statistic": 1.374590670947819,
+      "p_value": 0.17526841150364963
+    },
+    "short_only": {
+      "n_weeks": 52,
+      "weekly_mean_return": -0.005576850373041884,
+      "total_return": -0.2701747593509425,
+      "annualized_return": -0.2523406888996619,
+      "annualized_volatility": 0.22251769260291504,
+      "annualized_sharpe": -1.3032501640922503,
+      "max_drawdown": 0.32866933578287627,
+      "win_rate": 0.3076923076923077,
+      "t_statistic": -1.3032501640922503,
+      "p_value": 0.19834253750227493
+    },
+    "buy_hold": {
+      "n_weeks": 52,
+      "weekly_mean_return": 0.006433910442720847,
+      "total_return": 0.37803897913195117,
+      "annualized_return": 0.3958334080413579,
+      "annualized_volatility": 0.163113845024791,
+      "annualized_sharpe": 2.051103282928773,
+      "max_drawdown": 0.08083750468658413,
+      "win_rate": 0.6346153846153846,
+      "t_statistic": 2.0511032829287736,
+      "p_value": 0.04541076680353542
+    },
+    "n_weeks": 52
+  },
+  "buy_hold_pooled": {
+    "n_weeks": 52,
+    "weekly_mean_return": 0.006433910442720847,
+    "total_return": 0.37803897913195117,
+    "annualized_return": 0.3958334080413579,
+    "annualized_volatility": 0.163113845024791,
+    "annualized_sharpe": 2.051103282928773,
+    "max_drawdown": 0.08083750468658413,
+    "win_rate": 0.6346153846153846,
+    "t_statistic": 2.0511032829287736,
+    "p_value": 0.04541076680353542
+  }
+}
+
+total wall time: 5330s

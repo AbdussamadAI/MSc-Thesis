@@ -1,0 +1,126 @@
+{
+  "protocol": {
+    "lookback": 60,
+    "horizon": 5,
+    "split": 0.8,
+    "top_n": 10,
+    "periods_per_year": 52,
+    "bilstm": {
+      "hidden": 256,
+      "epochs": 50
+    },
+    "tft": {
+      "hidden": 256,
+      "layers": 4,
+      "heads": 8,
+      "epochs": 50
+    }
+  },
+  "n_stocks": 50,
+  "n_weeks": 64,
+  "BiLSTM": {
+    "long_short": {
+      "n_weeks": 49,
+      "weekly_mean_return": 0.008024953206317133,
+      "total_return": 0.36456700481738746,
+      "annualized_volatility": 0.45876895637898724,
+      "annualized_sharpe": 0.9096028859977242,
+      "max_drawdown": 0.1664399767602771,
+      "win_rate": 0.46938775510204084,
+      "t_statistic": 0.8829745738624518,
+      "p_value": 0.3816509381048071
+    },
+    "long_only": {
+      "n_weeks": 49,
+      "weekly_mean_return": 0.010493775604218639,
+      "total_return": 0.5484420586893308,
+      "annualized_volatility": 0.4353044539950172,
+      "annualized_sharpe": 1.253550994967801,
+      "max_drawdown": 0.15423984336692909,
+      "win_rate": 0.6530612244897959,
+      "t_statistic": 1.2168537200521983,
+      "p_value": 0.22960929927915452
+    },
+    "short_only": {
+      "n_weeks": 49,
+      "weekly_mean_return": -0.002468822397901506,
+      "total_return": -0.14458660657568145,
+      "annualized_volatility": 0.2779388242777623,
+      "annualized_sharpe": -0.4618957607828875,
+      "max_drawdown": 0.29848253951671644,
+      "win_rate": 0.42857142857142855,
+      "t_statistic": -0.44837392099827117,
+      "p_value": 0.6559008711303118
+    },
+    "buy_hold": {
+      "n_weeks": 49,
+      "weekly_mean_return": 0.005640374972784934,
+      "total_return": 0.2945644169374779,
+      "annualized_volatility": 0.19291043232767735,
+      "annualized_sharpe": 1.5203921065638302,
+      "max_drawdown": 0.125906855365704,
+      "win_rate": 0.6122448979591837,
+      "t_statistic": 1.4758831497379306,
+      "p_value": 0.14650562677826282
+    },
+    "n_weeks": 49
+  },
+  "TFT": {
+    "long_short": {
+      "n_weeks": 49,
+      "weekly_mean_return": 0.005861476225127011,
+      "total_return": 0.22910857104578453,
+      "annualized_volatility": 0.4547197031822894,
+      "annualized_sharpe": 0.6702959242221723,
+      "max_drawdown": 0.20919127062385212,
+      "win_rate": 0.46938775510204084,
+      "t_statistic": 0.6506732412162681,
+      "p_value": 0.5183601149101442
+    },
+    "long_only": {
+      "n_weeks": 49,
+      "weekly_mean_return": 0.010568328810025217,
+      "total_return": 0.5551795875949164,
+      "annualized_volatility": 0.4332838582187291,
+      "annualized_sharpe": 1.268344268306177,
+      "max_drawdown": 0.14405052894147208,
+      "win_rate": 0.6530612244897959,
+      "t_statistic": 1.2312139253935166,
+      "p_value": 0.22424147661935406
+    },
+    "short_only": {
+      "n_weeks": 49,
+      "weekly_mean_return": -0.0047068525848982055,
+      "total_return": -0.22749302253982306,
+      "annualized_volatility": 0.24096408482169474,
+      "annualized_sharpe": -1.0157378208284362,
+      "max_drawdown": 0.32112065366330045,
+      "win_rate": 0.3877551020408163,
+      "t_statistic": -0.9860024449221103,
+      "p_value": 0.3290761893918127
+    },
+    "buy_hold": {
+      "n_weeks": 49,
+      "weekly_mean_return": 0.005640374972784934,
+      "total_return": 0.2945644169374779,
+      "annualized_volatility": 0.19291043232767735,
+      "annualized_sharpe": 1.5203921065638302,
+      "max_drawdown": 0.125906855365704,
+      "win_rate": 0.6122448979591837,
+      "t_statistic": 1.4758831497379306,
+      "p_value": 0.14650562677826282
+    },
+    "n_weeks": 49
+  },
+  "buy_hold_pooled": {
+    "n_weeks": 49,
+    "weekly_mean_return": 0.005640374972784934,
+    "total_return": 0.2945644169374779,
+    "annualized_volatility": 0.19291043232767735,
+    "annualized_sharpe": 1.5203921065638302,
+    "max_drawdown": 0.125906855365704,
+    "win_rate": 0.6122448979591837,
+    "t_statistic": 1.4758831497379306,
+    "p_value": 0.14650562677826282
+  }
+}
